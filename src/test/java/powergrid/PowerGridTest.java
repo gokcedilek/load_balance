@@ -86,6 +86,20 @@ public class PowerGridTest {
 		assertTrue(!PowerGrid.canLoadBalance(9, 5, 3));
 	}
 
+	@Test
+	public void mytest5() {
+		assertTrue(!PowerGrid.canLoadBalance(2, 3, 8));
+	}
+
+	@Test
+	public void mytest6() {
+		assertTrue(!PowerGrid.canLoadBalance(9, 9, 7));
+	}
+
+	@Test
+	public void mytest7() {
+		assertTrue(!PowerGrid.canLoadBalance(10, 25, 35));
+	}
 
 
 }
